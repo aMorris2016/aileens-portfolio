@@ -1,0 +1,48 @@
+.container {
+    background-color: #EDDED8;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentText {
+    width: 75ch;
+    text-align: left;
+}
+
+.contentImg {
+    padding-right: 1rem;
+}
+
+
+.contentTextPadding {
+    padding: .75rem 0;
+}
+
+.contentLinkPadding {
+    padding-top: 1.5rem;
+}
+
+.contentLink {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-device-width : 48em) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentImg {
+        padding-right: 0;
+    }
+    
+
+    .contentText {
+        padding-top: 2.75rem;
+        text-align: left;
+        width: 35ch;
+    }
+}

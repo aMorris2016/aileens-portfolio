@@ -1,0 +1,23 @@
+html { 
+    font-size: 100%; 
+}
+
+body, a {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    color: #340CE1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+}
+
+section > h2 {
+    margin-bottom: 3rem;
+}

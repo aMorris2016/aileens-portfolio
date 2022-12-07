@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    background-color: #EDDED8;
+    position: sticky;
+    top: 1rem;
+    z-index: 10;
+    top: 0%;
+    width: inherit;
+}
+
+.navItem {
+    padding-right: 1rem;
+}

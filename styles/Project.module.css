@@ -1,0 +1,29 @@
+.contentContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentText {
+    text-align: left;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+@media screen and (max-device-width : 70.5em) {
+    .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.contentContainer li:not(:last-child) {
+        padding-bottom: 3rem;
+    }
+}
