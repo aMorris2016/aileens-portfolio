@@ -46,8 +46,8 @@ export default function Projects() {
           />
           <div className={styles.contentTextContainer}>
             <div className={styles.contentText}>
-            <h3>Customer Service Dashboard</h3>
-            <p> Excel . Pivot Tables. Charts</p>
+            <h3>Business Service Dashboard</h3>
+            <p> Excel. Pivot Tables. Charts</p>
             </div>        
             <Link 
               href="https://github.com/aMorris2016/Customer_Service_Dashboard" 
