@@ -4,7 +4,7 @@ import heroVid from '../public/hero.mp4';
 export default function Hero() {
     return (
         <section id="section_hero" className={styles.hero}>
-            <video className={styles.heroVideo} autoPlay loop>
+            <video className={styles.heroVideo} autoPlay loop muted>
                 <source src={heroVid} type="video/mp4"/>
                 <p>Your browser doesn't support video.</p>
             </video>
