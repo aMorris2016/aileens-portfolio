@@ -2,11 +2,13 @@ import styles from "../styles/Contact.module.css"
 import { FaEnvelope } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { SiTableau } from "react-icons/si";
+
 import Link from "next/link";
 
 const getcopyRightYear = () => new Date().getFullYear();
+
+const concatStyles = () => `${styles.icon} animate-scale`
 
 export default function Contact() {
   return (
@@ -21,7 +23,7 @@ export default function Contact() {
           <div className={styles.icons}>
             <Link 
               href="mailto:aileenmorris2012@gmail.com" 
-              className={styles.icon}
+              className={concatStyles()}
               aria-label="Email Aileen"
             >
                 <span className={styles.ariaIinvisible}>Link to Aileen&apos;s email</span>
@@ -29,7 +31,7 @@ export default function Contact() {
             </Link>
             <Link 
               href="https://www.linkedin.com/in/aileenmorris/" 
-              className={styles.icon}
+              className={concatStyles()}
               aria-label="Open Aileen's LinkedIn profile"
             >
                 <span className={styles.ariaIinvisible}>Link to Aileen&apos;s LinkedIn profile</span>
@@ -37,19 +39,19 @@ export default function Contact() {
             </Link>
             <Link 
               href="https://github.com/aMorris2016" 
-              className={styles.icon}
+              className={concatStyles()}
               aria-label="Open Aileen's Github"
             >
                 <span className={styles.ariaIinvisible}>Link to Aileen&apos;s Github</span>
                 <FaGithub />
             </Link>
             <Link 
-              href="https://www.instagram.com/aileendc88/" 
-              className={styles.icon}
-              aria-label="Open Aileen's Instagram"
+              href="https://public.tableau.com/app/profile/aileenmorris" 
+              className={concatStyles()}
+              aria-label="Open Aileen's Tableau"
             >
-                <span className={styles.ariaIinvisible}>Link to Aileen&apos;s Instagram</span>
-                <AiFillInstagram />
+                <span className={styles.ariaIinvisible}>Link to Aileen&apos;s Tableau</span>
+                <SiTableau />
             </Link>
           </div>
         </section>

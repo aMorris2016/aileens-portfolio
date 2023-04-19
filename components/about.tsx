@@ -1,6 +1,6 @@
 import styles from '../styles/About.module.css';
 import Image from 'next/image';
-import profilePic from '../public/aboutme.png';
+import profilePic from '../public/aboutme.jpg';
 import Link from 'next/link';
 
 export default function About() {

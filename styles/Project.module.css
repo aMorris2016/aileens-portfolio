@@ -1,6 +1,10 @@
 .contentContainer {
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 75rem;
+    margin: 0 auto;
 }
 
 .contentTextContainer {
@@ -11,10 +15,6 @@
 
 .contentText {
     text-align: left;
-}
-
-.icon {
-    font-size: 32px;
 }
 
 @media screen and (max-device-width : 70.5em) {
