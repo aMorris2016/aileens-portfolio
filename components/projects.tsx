@@ -79,7 +79,7 @@ export default function Projects() {
           </Link> 
         </li>
 
-        <li>
+        <li className={"animate-scale"}>
           <Image
             src={laptop}
             alt="Picture of a laptop with chart images"
