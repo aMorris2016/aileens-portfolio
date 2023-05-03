@@ -48,7 +48,7 @@ export default function About() {
                 className={styles.contentLink}
                 aria-label="Open a Google drive link to Aileen's resume"
               >
-                Check out my <span style="color:#F205CB">resume<span> for details.
+                Check out my <span style={color:"#F205CB"}>resume</span> for details.
               </Link>
             </div>
           </div>
