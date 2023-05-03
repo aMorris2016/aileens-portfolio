@@ -44,7 +44,7 @@ export default function About() {
             </p>            
             <div className={styles.contentLinkPadding}>
               <Link 
-                href="https://drive.google.com/file/d/130sEVZQwJIM6wekPxXOre3raQsllkPXI/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1oyH6aTFJqo6r0O2LcFGa2-KKLXmmDCB9/view?usp=sharing" 
                 className={styles.contentLink}
                 aria-label="Open a Google drive link to Aileen's resume"
               >
